@@ -3,6 +3,7 @@
 ## CS 4390 - Fall 2025
 - This repository is to extend CFG construction implementation by Adrian Sampson from course on programming language implementation. 
 
+## Usage
 - Includes reverse post order and reducibility testing. 
 - Used turnt to construct tests. 
 
