@@ -8,7 +8,9 @@
 - Used turnt to construct tests. 
 
 To run the CFG test cases in DOT format for a Bril program:
+
 bril2json < {filename} | python3 ../mycfg.py
+
 from test file
 
 
