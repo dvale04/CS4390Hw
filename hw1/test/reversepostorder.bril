@@ -1,0 +1,16 @@
+@main {
+  jmp .A;
+
+.A:
+  br true .B .C;
+
+.B:
+  jmp .D;
+
+.C:
+  jmp .D;
+
+.D:
+  ret;
+}
+
