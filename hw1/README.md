@@ -1,10 +1,11 @@
-# Advanced Compilers Course Work
+# Advanced Compilers 
 
-## CS 4390/5390 - Fall 2025
-## Shirley Moore, Instructor
+## CS 4390 - Fall 2025
+- This repo is to extend CFG construction implementation by Adrian Samspon course on programming langugage implementation. Includes reverse post order and reucibility testing. 
 
-### Homework 1: CFG Analysis
-- [HW1 Documentation](./hw1/README.md)
+Used turnt to construct test and the command to run is bril2json < {filename} | python3 ../mycfg.py
 
-### Student: Diana Valenzuela
+
+
+
 
