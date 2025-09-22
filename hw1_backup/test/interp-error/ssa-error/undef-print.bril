@@ -1,4 +1,0 @@
-@main {
-  x: int = undef;
-  print x;
-}

@@ -1,4 +1,0 @@
-@main() {
-v: any = const 4;
-b: bool = and v v;
-}

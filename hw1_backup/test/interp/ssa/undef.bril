@@ -1,6 +1,0 @@
-@main {
-  z: int = const 42;
-  x: int = undef;
-  y: int = id x;
-  print z;
-}
