@@ -1,0 +1,13 @@
+digraph main {
+ b0;
+ A;
+ B;
+ C;
+ exit;
+ b0 -> A;
+ A -> B;
+ A -> exit;
+ B -> C;
+ C -> A;
+ C -> exit;
+}

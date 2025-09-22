@@ -1,0 +1,15 @@
+@main {
+  jmp .A;
+
+.A:
+  br true .B .exit;
+
+.B:
+  jmp .C;
+
+.C:
+  br true .A .exit;
+
+.exit:
+  ret;
+}
