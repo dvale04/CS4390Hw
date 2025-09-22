@@ -1,11 +1,14 @@
 # Advanced Compilers 
 
 ## CS 4390 - Fall 2025
-- This repo is to extend CFG construction implementation by Adrian Samspon course on programming langugage implementation. Includes reverse post order and reucibility testing. 
+- This repository is to extend CFG construction implementation by Adrian Sampson from course on programming language implementation. 
 
-Used turnt to construct test and the command to run is bril2json < {filename} | python3 ../mycfg.py
+- Includes reverse post order and reducibility testing. 
+- Used turnt to construct tests. 
 
-
+To run the CFG test cases in DOT format for a Bril program:
+bril2json < {filename} | python3 ../mycfg.py
+from test file
 
 
 
