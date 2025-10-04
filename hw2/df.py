@@ -141,7 +141,7 @@ def cprop_merge(vals_list):
     return out_vals 
 
 
-
+#for reaching definitions analysis 
 def reaching_defs(block, in_vals):
     gen_set = set()
     kill_set = set()
@@ -162,6 +162,7 @@ def reaching_defs(block, in_vals):
 
     return gen_set.union(in_vals - kill_set)
 
+#for available expressions analysis 
 def available_exprs(block, in_vals):
     gen_set = set()
     kill_set = set()
@@ -216,12 +217,14 @@ ANALYSES = {
         merge=cprop_merge,
         transfer=cprop_transfer,
     ),
+    #reaching definitions analysis
     "reaching-defs": Analysis(
         True,           # Forward analysis
         init=set(),     # Start with empty set for entry block
         merge=union,    # Union for may-analysis
         transfer=reaching_defs,
     ),
+    #available expressions analysis 
     "available-exprs": Analysis(
         True,               # Forward analysis
         init=set(),         # Start with empty set for entry block  
