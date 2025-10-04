@@ -1,14 +1,18 @@
-Advanced Compilers
+# Advanced Compilers 
 
-CS 4390 - Fall 2025
+## CS 4390 - Fall 2025
 
-This repository is to extend CFG construction implementation by Adrian Sampson from course on programming language implementation.
-Usage
+## Data Flow Analysis Assignment 
+- This assignment implements two data flow analyses using the worklist algorithm:
+1. **Reaching Definitions Analysis** - Checks the assignments that define the current values of variables
+2. **Available Expressions Analysis** - Checks which expressions have already been computed in the execution at a program point
 
-Includes reverse post order and reducibility testing.
-Used turnt to construct tests.
-To run the CFG test cases in DOT format for a Bril program:
 
-bril2json < {filename} | python3 ../mycfg.py
+## Usage
+- Used turnt to construct tests. 
+
+To run the analyses in Bril program:
+
+bril2json < {filename} | python3 ../df.py
 
 from test file
