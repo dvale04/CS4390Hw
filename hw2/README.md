@@ -3,7 +3,7 @@
 ## CS 4390 - Fall 2025
 
 ## Data Flow Analysis Assignment 
-- This assignment implements two data flow analyses using the worklist algorithm:
+- This assignment extends data flow analysis implementation byt Adrian Sampson from course on programming language implementation. I implemented two data flow analyses using the worklist algorithm:
 1. **Reaching Definitions Analysis** - Checks the assignments that define the current values of variables
 2. **Available Expressions Analysis** - Checks which expressions have already been computed in the execution at a program point
 
