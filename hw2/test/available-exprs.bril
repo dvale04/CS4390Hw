@@ -1,0 +1,17 @@
+@main {
+	x: int = const1;
+	y: int = const 2;
+	cond: bool = const true;
+	br cond .then .else;
+
+.then:
+	a: int = add x y;
+	jmp .merge;
+
+.else:
+	jmp .merge; 
+
+.merge:
+	b: int = add x y;
+	print b;
+}

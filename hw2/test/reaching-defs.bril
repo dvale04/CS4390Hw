@@ -1,0 +1,19 @@
+@main {
+  	a: int = const 1;
+  	b: int = const 2;
+	cond: bool = const true;
+  	br cond .then .else;
+
+.then:
+  	a: int = const 3;
+	jmp .merge;
+
+.else:
+	b: int = const 4;
+	jmp .merge; 
+
+.merge:
+	c: int = add a b;
+	print c;
+}
+	
