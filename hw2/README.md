@@ -13,6 +13,6 @@
 
 To run the analyses in Bril program:
 
-bril2json < {filename} | python3 ../df.py
+bril2json < {filename} | python3 ../df.py {name}
 
 from test file
